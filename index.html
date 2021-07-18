@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--GSAP & ScrollToPlugin-->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"
+    integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q=="
+    crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Ablock Web Site</title>
     <script
       src="https://kit.fontawesome.com/a409e038c5.js"
@@ -33,16 +44,11 @@
               >회사 소개</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="javascript:void(0)" class="nav-link" data-link="project"
               >프로젝트</a
             >
-          </li>
-          <li>
-            <a href="javascript:void(0)" class="nav-link" data-link="plan"
-              >사업 계획</a
-            >
-          </li>
+          </li> -->
           <li>
             <a href="javascript:void(0)" class="nav-link" data-link="contact"
               >CONTACT</a
@@ -59,8 +65,13 @@
     <!-- Company -->
     <div class="company_content container" id="company">
       <div class="inner">
-        <h1>함께 성장하는 <Strong>ABlock</Strong> Company</h1>
-
+        <div class="content">
+          <h1>함께 성장하는 <Strong>ABlock</Strong> Company</h1>
+          <h1><strong>협업</strong>과 <strong>소통</strong>을 중요시 하는 문화</h1>
+          <p>여러 프로젝트를 통해 다양한 경험과 성장을 할 수 있습니다.</p>
+        </div>
+        <img src="./cc.png" alt="이미지 준비중" class="dungdung">
+        <!-- <img src="https://cdn.worldvectorlogo.com/logos/block-1.svg" alt="이미지 준비중"> -->
       </div>
     </div>
 
@@ -69,15 +80,10 @@
       <div class="inner"></div>
     </div>
 
-    <!-- Plan -->
-    <div class="plan container" id="plan">
-      <div class="inner"></div>
-    </div>
-    
     <!-- Contact -->
     <div class="contact container" id="contact">
       <div class="inner">
-        <div class="wrapper">
+        <!-- <div class="wrapper">
           <div class="cube">
             <div class="one"></div>
             <div class="two"></div>
@@ -86,15 +92,35 @@
             <div class="five"></div>
             <div class="six"></div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-      <div class="inner container">
-        <p>aaas</p>
+    <footer id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer">
+                  <ul>
+                      <li><a href="#">사이트 도움말</a></li>
+                      <li><a href="#">사이트 이용약관</a></li>
+                      <li><a href="#">사이트 운영원칙</a></li>
+                      <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                      <li><a href="#">책임의 한계와 법적고지</a></li>
+                      <li><a href="#">게시중단요청서비스</a></li>
+                      <li><a href="#">고객센터</a></li>
+                  </ul>
+                  <p>(주)에이블록 | 부산광역시 수영구 광안로61번길 60, 이안테라디움광안 오피스텔</p>
+                  <p>전화: 1588-1234 | Email: Ablock@aaa.com</p>
+                  <address>
+                      Copyright &copy;
+                      <a href="http://webstoryboy.co.kr"><strong>ABlock</strong></a>
+                      All Rights Reserved.
+                  </address>
+              </div>
+          </div>
       </div>
-    </footer>
-  </body>
+  </footer>
+  <!-- //footer -->
+</body>
 </html>
