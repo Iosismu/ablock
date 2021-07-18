@@ -1,0 +1,20 @@
+<복습>
+React
+HTML
+CSS
+JavaScript
+Jquery
+git push, branch, PR, Merge
+
+<숙제>
+시중 앱 비교 후 장점, 단점
+UI 바꾸었으면 하는점x
+React Native, Deploy, BackEnd 각종 문서 또는 커뮤니티 정리
+회사 웹페이지 호스팅 by Cafe24
+ReactNative 실행
+react native cli, Expo cli 실행
+youtube에 clone강의 따라하기
+소셜로그인 구현 with FireBase
+
+<자료, 강의>
+스무디 한잔 마시면서 끝내는 React Native
